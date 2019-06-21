@@ -1,7 +1,7 @@
 import React from 'react';
 import Smurf from './Smurf';
 
- const SmurfVillage = () => {
+ const SmurfVillage = (props) => {
     return (
         <div>
             {props.smurfs.map(smurf => {
