@@ -5,6 +5,7 @@ import SmurfAddForm from './SmurfAddForm';
 import { getSmurfs } from '../actions/index';
 import SmurfVillage from './SmurfVillage';
 
+
 /*
  to wire this component up you're going to need a few things.
  I'll let you do this part on your own. 
@@ -19,7 +20,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="App">
         <div>
           <h1>Smurf Village</h1>
         </div>
